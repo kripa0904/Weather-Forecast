@@ -24,6 +24,3 @@ This folder contains all files for the assignment, including HTML, CSS, and Java
 1. Clone the repository or download this folder.
 2. Open (Weather.html) in your browser.
 3. Click the **"Get Weather"** button or enter a city to test.
-
-```bash
-git clone https://github.com/yourusername/Weather-Forecast.git
