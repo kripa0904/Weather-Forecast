@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Weather Forecast</title>
+    <link rel="stylesheet" href="files/Wstyles.css" />
+</head>
+<body>
+    <div class="container">
+        <h1>Weather Forecast</h1>
+
+        <!-- City Search Section -->
+        <div class="weather-section">
+            <h2>Search by City</h2>
+            <input type="text" id="city-input" placeholder="Enter city name..." />
+            <button id="city-btn">Get City Weather</button>
+            <div id="city-weather"></div>
+        </div>
+
+        <hr />
+
+        <!-- Location Weather Section -->
+        <div class="weather-section">
+            <h2>Get Weather by Your Location</h2>
+            <button id="location-btn">Get Weather</button>
+            <div id="location-weather"></div>
+        </div>
+    </div>
+
+    <script src="files/Wscript.js"></script>
+</body>
+</html>
